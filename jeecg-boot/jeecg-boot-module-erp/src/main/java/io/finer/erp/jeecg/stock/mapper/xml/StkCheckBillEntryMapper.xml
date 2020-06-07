@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="io.finer.erp.jeecg.stock.mapper.StkCheckBillEntryMapper">
+
+	<delete id="deleteByMainId" parameterType="java.lang.String">
+		DELETE 
+		FROM  stk_check_bill_entry 
+		WHERE
+			 mid = #{mainId} 	</delete>
+	
+	<select id="selectByMainId" parameterType="java.lang.String" resultType="io.finer.erp.jeecg.stock.entity.StkCheckBillEntry">
+		SELECT * 
+		FROM  stk_check_bill_entry
+		WHERE
+			 mid = #{mainId} 	</select>
+</mapper>
