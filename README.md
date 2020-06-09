@@ -3,18 +3,15 @@ Finers 进销存系统
 
 当前最新版本： 0.5.0（发布日期：2020-06-08）
 
-
 [![AUR](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)]()
 [![](https://img.shields.io/badge/Author-FINERS团队-orange.svg)]()
 [![](https://img.shields.io/badge/version-0.5.0-brightgreen.svg)]()
 
 
-
 介绍
 -----------------------------------
 
-Finers进销存系统是一款基于Jeecg-Boot开发的供销链管理软件产品，采用前后端分离架构：SpringBoot2.x，Ant Design&Vue，Mybatis-plus，Shiro，JWT。
-本项目在十多年中小企业管理经验的基础上，由ERP领域的资深专家设计，产品分为基础版、标准版、企业版三个版本，以适应不同的业务需求。
+Finer进销存是一款的面向中小企业的供销链管理系统，基于J2EE快速开发平台Jeecg-Boot开发，采用前后端分离架构：SpringBoot2.x，Ant Design&Vue，Mybatis-plus，Shiro，JWT。项目基于十多年的中小企业管理经验，由ERP领域的资深专家设计；产品分为基础版、标准版、企业版三个版本，可适应不同的管控流程；对于灵活多样的个性化的管理需求，在Jeecg-Boot支撑下，利用其强大的代码生成器，无需写任何代码就可以快速实现大多功能，也可手工加入复杂的业务逻辑！
  - 基础版：管结果，直接出入库，生成应收应付，进行收付款并核销
  - 标准版：管过程，业务从合同、申请、订单开始
  - 企业版：管协同，全过程跟踪管理，集成协同办公
@@ -215,13 +212,33 @@ yarn run lint
 ```
 
 
-
-
 系统效果
 ----
-##### ![系统登录](https://images.gitee.com/uploads/images/2020/0609/101836_d7a51979_1870948.png "登录.png")
+##### 系统登录
+![系统登录](https://images.gitee.com/uploads/images/2020/0609/101836_d7a51979_1870948.png "登录.png")
 
+##### 采购入库
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0609/102923_773c161b_1870948.png "采购入库.png")
+
+##### 采购入库-单据新增
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0609/102947_1adcc0b5_1870948.png "采购入库-新增.png")
+
+##### 采购入库-自定义显示列
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0609/103001_80cd5c33_1870948.png "采购入库-自定义列.png")
+
+##### 应付核销-编制
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0609/103045_36ba1bca_1870948.png "应付核销-编辑.png")
+
+##### 树结构数据
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0609/103132_6cd1a170_1870948.png "树结构数据.png")
+
+##### 树结构数-编辑
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0609/103159_7558a1cf_1870948.png "树结构数据-编辑.png")
 
 其他说明
 ----
+jeecg-Boot技术官网： http://www.jeecg.com
+
+jeecg-Boot开发文档： http://doc.jeecg.com
+
 
