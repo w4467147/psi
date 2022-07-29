@@ -189,7 +189,7 @@ Finer进销存是一款面向中小企业的供销链管理系统，基于J2EE�
 
 - 拉取项目代码
 ```bash
-git clone https://gitee.com/FINERS/psi.git
+git clone https://gitee.com/FINERME/psi.git
 cd  psi/ant-design-jeecg-vue
 ```
 
